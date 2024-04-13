@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade - Questão 03</title>
     <link rel="stylesheet" href="reverse.css">
+    <title>Atividade - Questão 03</title>
 </head>
+
 <body>
-    <form>
-        <div id="entrada">
-            <input type="text" placeholder="Insira uma palavra">
-        </div>
-        <div id="area-botao">
-            <button id="reverse" title="" >
-                INVERTER
-            </button>
-        </div>
-    </form>
+  <div id="form">
+    <div id="area-acao">
+      <textarea id="entrada-reverse" placeholder="Insira o texto aqui !"></textarea>
+      <div id="area-botao">
+        <button id="inverter">
+          INVERTER
+        </button>
+      </div>
+      <textarea readonly id="saida-reverse" placeholder="O texto invertido sairá aqui!"></textarea>
+    </div>
+  </div>
+<script src="reverse.js"></script> <!-- Correção aqui -->
 </body>
+
 </html>
