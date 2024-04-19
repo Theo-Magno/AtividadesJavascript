@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 1s ease;
+}
+
+/* Manhã */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Tarde */
+.afternoon {
+    background-color: yellow;
+    color: black;
+}
+
+/* Noite */
+.night {
+    background-color: #333;
+    color: white;
+}
+
+/* Madrugada */
+.dawn {
+    background-color: #000;
+    color: white;
+}
